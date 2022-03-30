@@ -135,6 +135,18 @@ body{
     color: var(--black);
 }
 
+section{
+    position: relative;
+    min-height: 100vh;
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
 
 
 
