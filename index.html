@@ -15,11 +15,11 @@
         <div class="navigation">
            
             <ul>
-                <li><a href="#banner">Inicio</a></li>
-                <li><a href="#about">Acerca de mi</a></li>
-                <li><a href="#services">Servicios</a></li>               
-                <li><a href="#tstimonials">Referencias</a></li>
-                <li><a href="#contact">Contacto </a></li>
+                <li><a href="#banner" onclick="toggleMenu();">Inicio</a></li>
+                <li><a href="#about" onclick="toggleMenu();">Acerca de mi</a></li>
+                <li><a href="#services" onclick="toggleMenu();">Servicios</a></li>               
+                <li><a href="#tstimonials" onclick="toggleMenu();">Referencias</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contacto </a></li>
                 
             </ul>
         </div>
@@ -277,6 +277,17 @@
             navigation.classList.toggle('active');
             main.classList.toggle('active');
             }
+        
+        // ahora, solucionamos el problema de la clase activa del menú para dispositivos móviles
+
+        function toggleMenu(){
+            let navigation=document.querySelector('.navigation');
+            let main=document.querySelector('.main');
+            navigation.classList.remove('active');
+            main.classList.remove('active');
+        }
+
+
 
     </script>
     
