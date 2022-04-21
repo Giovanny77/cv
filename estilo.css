@@ -464,9 +464,15 @@ p{
     }
     .main .topbar
     {
+        /*
         width: 100%;
         left: 0;
         padding: 0 20px;
+        */
+        width: 80%;
+        left: 0;
+        padding: 0 20px;
+
     }
     .navigation ul {
         padding: 20px 20px;
@@ -530,10 +536,7 @@ p{
     {
         padding: 10px 20px;
     }
-    .toggle
-    {
-        left: -50%;
-    }
+   
 }
 
 
