@@ -446,7 +446,7 @@ p{
 {
     .navigation
     {
-        left: -100%;
+        left: -130%;
     }
     .navigation.active
     {
@@ -531,6 +531,9 @@ p{
         padding: 10px 20px;
     }
 }
+
+
+
 
 
 
