@@ -530,6 +530,10 @@ p{
     {
         padding: 10px 20px;
     }
+    .toggle
+    {
+        left: -50%;
+    }
 }
 
 
